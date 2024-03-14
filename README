@@ -1,0 +1,21 @@
+Directory overview:
+==================
+
+mtl/            Minisat Template Library
+core/           A core version of the solver glucose (no main here)
+simp/           An extended solver with simplification capabilities
+parallel/       A multicore version of glucose
+README
+LICENSE
+Changelog
+
+To build:
+======================================================================
+
+cd simp
+make
+
+Usage:
+======
+
+`gaspi_glucose.sh <NUM_GENERATIONS> <POPULATION_SIZE> <MUTATION_RATE> <CROSSOVER_RATE> <CNF_FILE>`
